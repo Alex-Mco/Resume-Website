@@ -1,0 +1,94 @@
+/* ResumeSite.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F9FAFB;
+  color: #1F2937;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #198754; 
+  color: white;
+  padding: 2rem 1rem;
+  z-index: 1000;
+}
+
+.sidebar .nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  text-decoration: underline;
+  color: #d4edda;
+}
+
+.blurb-info {
+  margin:auto;
+}
+/* Ensure hamburger stays pinned top-left on mobile only */
+.btn[data-bs-toggle="offcanvas"] {
+  z-index: 1055;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.5rem;
+}
+
+.hamburger-button {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1055; /* higher than Bootstrap cards, etc. */
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+/* Desktop layout — account for sidebar */
+@media (min-width: 992px) {
+  .content {
+    margin-left: 200px; /* match sidebar width */
+    max-width: calc(100% - 200px); /* keep it inside viewport */
+    padding: 2rem;
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 768) {
+    .content {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 0;
+    }
+    #personal-summary{
+        display: none;
+    }
+    .card {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
