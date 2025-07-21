@@ -119,10 +119,6 @@ export default function Home() {
                             <FaLinkedin className="me-2" style={{ color: "#0077B5" }}/>
                             <span>Alexandria McOmber</span>
                         </a>
-                        <a href="https://marvel-nexus.vercel.app" className="mb-1 text-muted text-start d-flex align-items-center text-decoration-none" target="_blank" zrel="noopener noreferrer" title="Marvel Nexus">
-                            <img src="/favicon.ico" alt="Marvel Nexus" style={{ width: '0.9em', height: '0.9em' }} className="me-2" />
-                            <span>Marvel Nexus</span>
-                        </a>
                         <br></br>
                         <div className="text-start">
                             <a className="btn btn-outline-success" href="/Alexandria_McOmber_Resume.pdf" download>
@@ -183,13 +179,7 @@ export default function Home() {
             <h5 className="fw-semibold">Capstone Project — Marvel Nexus</h5>
             <p>
                 Designed and implemented full-stack architecture using a React frontend styled with CSS and a Node.js/Express backend connected to MongoDB Atlas.
-                The application includes REST APIs, authentication, automated tests, and is deployed on AWS S3 and Elastic Beanstalk.
-            </p>
-            <p>
-                <a href="https://marvel-nexus.vercel.app" target="_blank" rel="noopener noreferrer" className="d-inline-flex align-items-center gap-1 mt-2">
-                    <img src="/favicon.ico" alt="Marvel Nexus Icon" style={{ width: '1em', height: '1em' }} />
-                    Marvel Nexus
-                </a>
+                The application includes REST APIs, authentication, automated tests, and is deployed on AWS S3 and Elastic Beanstalk. Not currently deployed.
             </p>
             <h5 className="fw-semibold mt-4">CS3400: Human Factors in Software Development</h5>
             <p>
