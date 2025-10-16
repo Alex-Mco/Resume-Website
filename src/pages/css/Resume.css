@@ -76,8 +76,7 @@ a:hover {
 }
 
 /* Mobile layout */
-@media (max-width: 768) {
-
+@media (max-width: 768px) {
     .content {
         margin-left: 0;
         max-width: 100%;
