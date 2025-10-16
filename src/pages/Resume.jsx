@@ -121,7 +121,7 @@ export default function Home() {
                         </a>
                         <br></br>
                         <div className="text-start">
-                            <a className="btn btn-outline-success" href="/Alexandria_McOmber_Resume.pdf" download>
+                            <a className="btn btn-outline-success" href="/Alexandria_McOmber.pdf" download>
                                 Download Resume
                             </a>
                         </div>
@@ -195,10 +195,35 @@ export default function Home() {
             <h5 className="fw-semibold">Exhibit Technician — Thanksgiving Point</h5>
             <p className="text-muted">Lehi, UT | February 2022 – December 2024</p>
             <p>
-                Repaired interactive museum exhibits including touchscreens and control systems. Reduced downtime and improved guest satisfaction by responding quickly to technical issues.
-                Collaborated with interdisciplinary teams to design new experiences and programmed microcontroller-based systems for long-term durability.
+                <ul>
+                    Diagnosed and repaired interactive museum exhibits, including touchscreens, buttons, and control systems. 
+                    Improved guest satisfaction by reducing downtime on exhibits through these quick, effective repairs
+                </ul>
+                <ul>
+                    Created CNC machine files, ran CNC machine files.
+                </ul>
+                <ul>
+                    Worked in a collaborative team environment
+                </ul>
+            </p>
+            <h5 className="fw-semibold">Bug Fixer & Finder — Ivalu</h5>
+            <p className="text-muted">Remote | (80Hr Contract) July 2025 – August 2025</p>
+            <p>
+                <ul>
+                    Diagnosed and resolved bugs impacting web functionality and performance.
+                </ul>
+                <ul>
+                    Tested both backend logic and frontend behavior to ensure quality standards.
+                </ul>
+                <ul>
+                    Deployed verified fixes to GitHub for review and production integration.
+                </ul>
+                <ul>
+                    C#, Blazor, Microsoft entity framework.
+                </ul>
             </p>
             </div>
+
             </main>
             <footer className="footer border-top pt-3">
                 <p>
